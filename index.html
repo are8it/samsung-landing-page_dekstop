@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Samsung</title>
+    <script type="text/javascript">
+		message = "Samsung, for today and tomorrow ";
+		function step() {
+			message = message.substr(1) + message.substr(0,1);
+			document.title = message.substr(0,15);
+		}
+	</script>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body onload="setInterval(step,100)">
+<header id="header">
+    <img src="images/samsung-logo-png-1286.png" alt="samsung_logo.png" id="header-img">
+    <nav id="nav-bar">
+        <ul>
+            <li class="nav-item"><a href="#hero" class="nav-link">Home</a></li>
+            <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+            <li class="nav-item"><a href="#best-sell" class="nav-link">Best Seller</a></li>
+            <li class="nav-item"><a href="https://www.samsung.com/id/smartphones/" target="_blank" class="nav-link">More</a></li>
+        </ul>
+    </nav>
+</header>
+
+<div id="hero">
+<div id="hero-layer">
+</div>
+<div id="hero-content">
+    <h1 id="hero-slogan"><span>Samsung</span> , the next big thing is here</h1>
+</div>
+</div>
+
+<section id="about">
+    <div id="about-container">
+        <div id="about-img">
+            <div id="about-circle-bg"></div>
+            <img src="images/NicePng_cell-phone-png_321062.png" alt="">
+        </div>
+        <div id="about-content">
+            <h1>About Us</h1>
+            <p>Samsung is committed to complying with local laws and regulations as well as applying a strict global code of conduct to all employees. It believes that ethical management is not only a tool for responding to the rapid changes in the global business environment, but also a vehicle for building trust with its various stakeholders including customers, shareholders, employees, business partners and local communities. With an aim to become one of the most ethical companies in the world, Samsung continues to train its employees and operate monitoring systems, while practicing fair and transparent corporate management.</p>
+        </div>
+    </div>
+    <div id="about-video">
+        <div id="video-desc">
+            <h1>SAMSUNG'S BELIEF</h1>
+            <p>We believe that technology serves to advance humanity, and its benefits should be available to all. Because by enabling every and single one of you, we know that we are building a better place together. Find out more about how we are sharing efforts to make a difference in our communities.</p>
+            <a href="//www.youtube.com/embed/ae47U9ZiaYw" target="_blank" rel="noopener noreferrer">WATCH THE VIDEO</a>
+        </div>
+        <div id="video-content">
+            <iframe width="560" height="315" src="//www.youtube.com/embed/ae47U9ZiaYw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen id="video"></iframe>
+        </div>
+    </div>
+</section>
+
+<section id="best-sell">
+    <h1><span>OUR TOP PRODUCTS</span></h1>
+    <div id="bs-card">
+        <div class="card">
+            <h4>Samsung S10 Plus</h4>
+            <div class="circle-card"></div>
+            <img src="images/pngkey.com-samsung-mobiles-png-9431425.png" alt="galaxy-fold">
+            <button>See more</button>
+        </div>
+        <div class="card">
+            <h4>Samsung Galaxy Note 10 Plus</h4>
+            <div class="circle-card"></div>
+            <img src="images/220-2208240_celulares-png.png" alt="">
+            <button>See more</button>
+        </div>
+        <div class="card">
+            <div class="circle-card"></div>
+            <h4>Samsung Galaxy Note 10 Plus</h4>
+            <div class="circle-card"></div>
+            <img src="images/Space Silver-hero-zoom.png.webp" alt="">
+            <button>See more</button>
+        </div>
+    </div>
+</section>
+
+<div id="footer">
+    <p>&copy; Arbhy Adityabrahma, 2020</p>
+</div>
+</body>
+</html>
